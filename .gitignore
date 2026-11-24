@@ -1,0 +1,19 @@
+# CMake build output
+build/
+cmake-build-*/
+
+# Visual Studio user-specific files
+.vs/
+*.user
+*.suo
+
+# Compiled binaries and intermediate files
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+
+# Operating system files
+.DS_Store
+Thumbs.db
