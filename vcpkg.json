@@ -1,12 +1,16 @@
 {
-    "name": "interactive-gaussian-splats",
-    "version-string": "1.0.0",
-    "dependencies": [
-        "glfw3",
-        "glm",
-        {
-            "name": "imgui",
-            "features": ["glfw-binding", "opengl3-binding"]
-        }
-    ]
+  "name": "interactive-gaussian-splats",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "glfw3",
+    "glm",
+    {
+      "name": "imgui",
+      "features": [
+        "glfw-binding",
+        "opengl3-binding"
+      ]
+    }
+  ],
+  "builtin-baseline": "15f012269634c31d5f4b204f8ecd51681f130fa5"
 }

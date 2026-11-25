@@ -22,3 +22,17 @@ glfw
 glm::glm
 imgui::imgui
 )
+
+# Visibility and optimization testing
+add_executable(OptimizationTests
+    tests/OptimizationTests.cpp
+    src/optimization/Frustum.cpp
+)
+
+target_include_directories(OptimizationTests PRIVATE
+    src
+)
+
+target_link_libraries(OptimizationTests PRIVATE
+    glm::glm
+)
