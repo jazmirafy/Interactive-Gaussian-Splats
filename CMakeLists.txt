@@ -27,6 +27,8 @@ imgui::imgui
 add_executable(OptimizationTests
     tests/OptimizationTests.cpp
     src/optimization/Frustum.cpp
+    src/optimization/GaussianVisibility.cpp
+    src/optimization/ScreenSpace.cpp
 )
 
 target_include_directories(OptimizationTests PRIVATE
